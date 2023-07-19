@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css?family=Belanosima|Pangolin|Mynerve|Amatic+SC|Permanent+Marker|Indie+Flower" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css">
+
+<head>
+</head>
+
+<body>
+  <div class="box">
+    <form id="fontForm" class="field is-size-4">
+    <label class="label">Font</label>
+    <label style="font-family: Belanosima;" class="radio">
+      <input type="radio" name="font" value="Belanosima" checked> Belanosima
+    </label>
+    <br>
+    <label style="font-family: Pangolin;" class="radio">
+      <input type="radio" name="font" value="Pangolin"> Pangolin
+    </label>
+    <br>
+    <label style="font-family: Mynerve;" class="radio">
+      <input type="radio" name="font" value="Mynerve"> Mynerve
+    </label>
+    <br>
+    <label style="font-family: 'Amatic SC';" class="radio">
+      <input type="radio" name="font" value="Amatic SC"> Amatic SC
+    </label>
+    <br>
+    <label style="font-family: 'Permanent Marker';" class="radio">
+      <input type="radio" name="font" value="Permanent Marker"> Permanent Marker
+    </label>
+    <br>
+    <label style="font-family: 'Indie Flower';" class="radio">
+      <input type="radio" name="font" value="Indie Flower"> Indie Flower
+    </label>
+
+    <div class="field">
+      <label class="label">Background</label>
+      <div class="control">
+        <label class="radio">
+          <input type="radio" name="color" value="#F8FD89" checked>
+          <span class="icon">
+            <i class="fas fa-square" style="color: #F8FD89;"></i>
+          </span>
+          yellow
+        </label>
+        <label class="radio">
+          <input type="radio" name="color" value="#96ADFC">
+          <span class="icon">
+            <i class="fas fa-square" style="color: #96ADFC;"></i>
+          </span>
+          blue
+        </label>
+        <label class="radio">
+          <input type="radio" name="color" value="#A8F29A">
+          <span class="icon">
+            <i class="fas fa-square" style="color: #A8F29A;"></i>
+          </span>
+          green
+        </label>
+        <label class="radio">
+          <input type="radio" name="color" value="#B987DC">
+          <span class="icon">
+            <i class="fas fa-square" style="color: #B987DC;"></i>
+          </span>
+          purple
+        </label>
+        <label class="radio">
+          <input type="radio" name="color" value="black">
+          <span class="icon">
+            <i class="fas fa-square" style="color: black;"></i>
+          </span>
+          dark theme
+        </label>
+      </div>
+    </div>
+
+    <div class="field">
+      <label class="label">Choose Text Alignment:</label>
+      <div class="control">
+        <label class="radio">
+          <input type="radio" name="align" value="left" checked>
+          <span class="icon">
+            <i class="fas fa-align-left"></i>
+          </span>
+          Left
+        </label>
+        <label class="radio">
+          <input type="radio" name="align" value="center">
+          <span class="icon">
+            <i class="fas fa-align-center"></i>
+          </span>
+          Center
+        </label>
+        <label class="radio">
+          <input type="radio" name="align" value="right">
+          <span class="icon">
+            <i class="fas fa-align-right"></i>
+          </span>
+          Right
+        </label>
+      </div>
+    </div>
+
+  </form>
+
+  <button class="button is-primary is-fullwidth" id="presentButton">Present</button>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+
+</html>
